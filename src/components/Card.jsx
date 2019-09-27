@@ -6,8 +6,8 @@ import { time, logoUsd, walk, star } from 'ionicons/icons'
 class Card extends React.Component {
 	render () {
 		return (
-			<IonCard>
-				<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTosGP_0xskdLBsyul_SpdUfA_NP8o0JM8I3FZVvztD96y-9XY9' alt=''/>
+			<IonCard className="gameCard">
+				<img className="cardImg" style={{width:'100%'}} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTosGP_0xskdLBsyul_SpdUfA_NP8o0JM8I3FZVvztD96y-9XY9' alt=''/>
 				<IonCardHeader>
 					<IonCardTitle>Discover Lamai</IonCardTitle>
 					<IonCardSubtitle>Lamai Beach, Koh Samui</IonCardSubtitle>
